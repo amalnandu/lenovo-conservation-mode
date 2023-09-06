@@ -3,7 +3,12 @@
 	
 	chmod +x install.sh
 	
---->	Then, to toggle ON and OFF between Conservation mode, in terminal type
+---> Now install using command:
+
+        ./install.sh
+
+
+Then, to toggle ON and OFF between Conservation mode, in terminal type
 	
 	consv
 	
