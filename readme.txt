@@ -1,6 +1,6 @@
 	
 	
-	--->	First open terminal and type:
+	--->	First open terminal int the extracted folder and type:
 	
 	chmod +x install.sh
 	
