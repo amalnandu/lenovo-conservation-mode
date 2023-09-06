@@ -1,0 +1,19 @@
+#!/bin/bash
+
+
+result=$(cat /sys/bus/platform/drivers/ideapad_acpi/VPC2004:00/conservation_mode)
+
+if [ "$result" -eq 0 ]; then
+ echo 1 | sudo tee /sys/bus/platform/drivers/ideapad_acpi/VPC2004:00/conservation_mode
+ echo "Conservation mode ON"
+
+elif [ "$result" -eq 1 ]; then
+echo  0 | sudo tee /sys/bus/platform/drivers/ideapad_acpi/VPC2004:00/conservation_mode
+echo "Conservation mode OFF"
+
+else
+echo "Error"
+
+fi
+
+
