@@ -1,21 +1,22 @@
-	
---->	First open terminal in the extracted folder and type:
+1.	Download the zip or clone the repo.	
+
+2.	Extract and open terminal, then enter:
 	
 	chmod +x install.sh
 	
----> Now install using command:
+3.	Now install using command:
 
         ./install.sh
 
 
-Then, to toggle ON and OFF between Conservation mode, in terminal type
+4.	Then, to toggle ON and OFF between Conservation mode, in terminal type
 	
 	consv
 	
 	
 	
 	
-	........Enjoy.................
+	🚀.................Enjoy.................🚀
 	
 	
 	
